@@ -1,0 +1,11 @@
+<advancedsettings>
+	<useddsfanart>false</useddsfanart> <!-- Disable dds (no hardware support) -->
+	
+	<lookandfeel>
+		<enablerssfeeds>false</enablerssfeeds>
+    </lookandfeel>
+	
+   <tvshowmatching action="prepend">
+	<regexp>(?i)[/](?:\[[\w-]*\]).+[_ ](?:ep)?([0-9]+).*\[[\da-fA-F]{8}\]</regexp> <!-- Fansubs "[UTW-Mazui]_Toaru_Majutsu_no_Index_II_-_08_[720p][7D946CA2]" --> 
+  </tvshowmatching>
+</advancedsettings>
